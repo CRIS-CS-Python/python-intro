@@ -101,7 +101,7 @@ type(21//1)
 Examples:
 
 ```python
-'This is a literal string'`
+'This is a literal string'
 ```
 
 ```python
@@ -131,7 +131,7 @@ type("Hello World")
 
 A *boolean* type has a value of either `True` or `False`.
 
-Note that bare values `true` or `false` (not enclosed in quotes) are
+Note that bare values `true` or `false` (all lowercase and not enclosed in quotes) are
 treated as if they are variable names and would result in `NameError`s.
 
 However, most other types can be deduced as a boolean in [*logical expressions*](https://realpython.com/python-operators-expressions/#boolean-operators-and-expressions-in-python) or by using the `bool()` function.
