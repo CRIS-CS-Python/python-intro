@@ -1,4 +1,6 @@
-# Python Basic Types
+# ![Chiang Rai International School](images/logo.png?raw=true) Introduction to Python
+
+## Python Basic Types
 
 | Class            | Type                   |
 |------------------|------------------------|
@@ -9,7 +11,7 @@
 | bytes, bytearray | Bytes                  |
 | bool             | Boolean values         |
 
-## Code Examples
+### Code Examples
 
 The code examples are meant to be run in the Python 3 interactive shell (REPL).
 
@@ -20,21 +22,33 @@ However,
 
 To lauch the Python 3 shell:
 
-### Windows Users
+#### Windows Users
 
 ```bash
 py -i
 ```
 
-### *NIX Users (Mac, Linux, etc...)
+#### *NIX Users (Mac, Linux, etc...)
 
 ```bash
 python3 -i
 ```
 
-## Numeric Types
+### Comments
 
-### Integers
+"A [comment](https://en.wikipedia.org/wiki/Comment_(computer_programming)#Python) is a human-readable explanation or annotation in the source code of a computer program."
+
+They are ignored by the Python interpreter.
+
+```python
+# This is a comment
+# Text after a '#' character is ignored by the Python interpreter
+print("This is interpreted code")  # but comments can also come after code on the same line
+```
+
+### Numeric Types
+
+#### Integers
 
 This code will show the type of a *literal* `37`. Its called a literal because the value *is what it is*, not a variable or compound expression that can also have the same type.
 
@@ -43,7 +57,7 @@ type(37)
 #> <class 'int'>
 ```
 
-### Floats
+#### Floats
 
 A floating point number is a rational number, however we use the term *floating point*
 instead of *decimal point* to avoid confusion with the term "decimal numbers" which
@@ -54,7 +68,7 @@ type(21.7)
 #> <class 'float'>
 ```
 
-#### Division
+##### Division
 
 Note that division (`/`) produces floats even for *whole numbers*.
 
@@ -66,7 +80,7 @@ type(21/1)
 #> <class 'float'>
 ```
 
-#### Integer Division
+##### Integer Division
 
 Use (`//`) for integer division.
 
@@ -78,7 +92,7 @@ type(21//1)
 #> <class 'int'>
 ```
 
-## Strings
+### Strings
 
 "Textual data in Python is handled with `str` objects, or strings. Strings are immutable sequences of Unicode code points."[1]
 
@@ -86,20 +100,34 @@ type(21//1)
 
 Examples:
 
-`'This is a literal string'`
+```python
+'This is a literal string'`
+```
 
-`"This is also a literal string"`
+```python
+"This is also a literal string"
+```
 
 However, single or double quotes must be used consistently.
 
-`"This is not a string literal, but a syntax error :('`
+```python
+"This is not a string literal, but a syntax error :('
+```
+
+*Docstrings* can span multiple lines, enclosed by three (single or double) quotes.
+
+```python
+'''This is
+a multiline
+string literal'''
+```
 
 ```python
 type("Hello World")
 #> <class 'str'>
 ```
 
-## Booleans
+### Booleans
 
 A *boolean* type has a value of either `True` or `False`.
 
