@@ -2,7 +2,11 @@
 
 "Textual data in Python is handled with `str` objects, or strings. Strings are immutable sequences of Unicode code points."[1]
 
-## Strings and Printing
+## String Concatenation
+
+Concatenate means to join two or more things together, like adding additional links to a chain.
+
+The `+` operator after a string indicates *string concatenation*, not addition.
 
 ```python
 "Hello World"
@@ -17,11 +21,9 @@
 #> Hello World
 ```
 
-### Concatenating strings and numbers
+### Numeric Strings
 
-Concatenate means to join two or more things together, like adding additional links to a chain.
-
-The `+` operator after a string indicates *string concatenation*, not addition.
+The `str()` function converts a non-string value to a string.
 
 ```python
 # But what happens if we concatenate a string and a number?
@@ -45,7 +47,12 @@ The `+` operator after a string indicates *string concatenation*, not addition.
 ## Python prints exactly what you tell it to
 ```
 
-### Numbers as strings
+### String to Number Conversion
+
+The conversion function
+
+* `int()` converts a numeric string value to an integer.
+* `float()` converts a numeric string value to an float.
 
 ```python
 # But concatenation is not numeric addition. What if the '+' operator follows a number?
@@ -78,11 +85,10 @@ print("I am immutable!")
 print(2)
 #> 2
 ```
-String Formatting
-There are several ways to combine strings with other data types using formatting. Here are some examples of different approaches.
-num = 2
 
-## String Coverting, Concatenation & [Formatting](https://docs.python.org/3/library/string.html#format-string-syntax)
+There are several ways to combine strings with other data types using formatting. Here are some examples of different approaches.
+
+## String [Formatting](https://docs.python.org/3/library/string.html#format-string-syntax)
 
 Here are some common ways to combine other values into a string and format it.
 
