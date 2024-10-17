@@ -77,7 +77,7 @@ We use the `len()` function to return the length (or number of items) in a seque
 city = city.title()
 
 # string length
-len(city)
+print(len(city))
 #> 10
 
 '''
