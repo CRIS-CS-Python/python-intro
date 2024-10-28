@@ -7,4 +7,4 @@ This is an basic introduction to Python taking a minimalist approach.
 1. [Types](types.md)
 1. [Strings](strings.md)
 1. [String Indexing & Slicing](string-indexing-slicing.md)
-1. [Number & Operators](number-operators.md)
+1. [Number & Operators](numbers-operators.md)
