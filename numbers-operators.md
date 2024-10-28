@@ -86,12 +86,12 @@ print(f"i = {i}, j = {j}, f = {f:6.2f}")
 
 The video introduces "order of operations".  Here is a pretty good introduction to order of operations and grouping operators:
 
-https://www.techbeamers.com/python-operator-precedence-associativity/
+[Python operator precedence associativity](https://www.techbeamers.com/python-operator-precedence-associativity/)
 
 Here is the authoritative reference:
 
-https://docs.python.org/3.3/reference/expressions.html#operator-precedence
+[Python.org operator precedence](https://docs.python.org/3.3/reference/expressions.html#operator-precedence)
 
 ## Additional Study
 
-https://www.youtube.com/watch?v=khKv-8q7YmY&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=3
+[Corey Schafer - Integers and Floats](https://www.youtube.com/watch?v=khKv-8q7YmY&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=3)
