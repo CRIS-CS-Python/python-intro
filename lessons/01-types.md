@@ -1,4 +1,4 @@
-# ![Chiang Rai International School](images/logo.png?raw=true) Introduction to Python
+# ![Chiang Rai International School](../images/logo.png?raw=true) Introduction to Python
 
 ## Python Basic Types
 

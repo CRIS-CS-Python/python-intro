@@ -1,4 +1,4 @@
-# ![Chiang Rai International School](images/logo.png?raw=true) Introduction to Python
+# ![Chiang Rai International School](../images/logo.png?raw=true) Introduction to Python
 
 "Textual data in Python is handled with `str` objects, or strings. Strings are immutable sequences of Unicode code points."[1]
 

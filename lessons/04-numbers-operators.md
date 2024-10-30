@@ -1,6 +1,8 @@
-# ![Chiang Rai International School](images/logo.png?raw=true) Introduction to Python
+# ![Chiang Rai International School](../images/logo.png?raw=true) Introduction to Python
 
-## Integers and Floating Point Numbers
+## Numbers & Operators
+
+### Integers and Floating Point Numbers
 
 ```python
 ## ints and floats are stored in memory differently

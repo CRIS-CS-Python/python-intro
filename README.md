@@ -4,7 +4,7 @@ This is an basic introduction to Python taking a minimalist approach.
 
 ## Lessons
 
-1. [Types](types.md)
-1. [Strings](strings.md)
-1. [String Indexing & Slicing](string-indexing-slicing.md)
-1. [Number & Operators](numbers-operators.md)
+1. [Types](lessons/01-types.md)
+2. [Strings](lessons/02-strings.md)
+3. [String Indexing & Slicing](lessons/03-string-indexing-slicing.md)
+4. [Numbers & Operators](lessons/04-numbers-operators.md)
