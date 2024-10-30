@@ -8,3 +8,4 @@ This is an basic introduction to Python taking a minimalist approach.
 2. [Strings](lessons/02-strings.md)
 3. [String Indexing & Slicing](lessons/03-string-indexing-slicing.md)
 4. [Numbers & Operators](lessons/04-numbers-operators.md)
+5. [Input & Output (I/O)](lessons/05-input-output.md)
