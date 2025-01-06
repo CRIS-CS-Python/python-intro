@@ -7,9 +7,9 @@ In this lesson, we will input and output character data from and to the terminal
 
 There are three file streams available to a process started in a terminal:
 
-* *standard output (STDOUT)* - default output file stream
-* *standard input (STDIN)* - default input file stream
-* *standard error (STDERR)* - default output file stream for errors
+0. *standard input (STDIN)* - default input file stream
+1. *standard output (STDOUT)* - default output file stream
+2. *standard error (STDERR)* - default output file stream for errors
 
 ```
                 +-----------+
@@ -31,9 +31,11 @@ print("Hello World")
 ## Standard Input (STDIN)
 
 The `input(prompt)`
-* Prints a prompt to STDOUT without a trailine newline character.
+
+* Prints a prompt to STDOUT followed by a newline character.
 * Waits for the user to type input data and press `<enter>`.
-* Pressing `<enter>` sends a *newline character* (`\n`) which causes the function to return the value entered as a **string**.
+* Pressing `<enter>` sends a *newline character* (`\n`) which causes
+  the function to return the value entered as a **string**.
 
 ```python
 # writes "What is your name? " to STDOUT
@@ -59,7 +61,7 @@ print("Next year, you will be {} years old.".format(age + 1))
 ## Input from Command Line
 
 We can pass text data into a process when we start it using *command line arguments*.
-`sys.argv` is a list of string arguments to the process. The first argument is always
+`sys.argv` is a list of string arguments for the process. The first argument is always
 the command that executed the process.
 
 Save this to a file `cmd_args.py`
@@ -82,7 +84,8 @@ $ py cmd_args.py 1 two III
 ## Standard Error (STDERR)
 
 `sys.stderr` is a *file object* than when written to, will send
-STDERR data to the terminal. The terminal can separate STDOUT and STDERR
+STDERR data to the terminal. The terminal can
+[separate STDOUT and STDERR](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html)
 if needed.
 
 ```python
