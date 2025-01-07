@@ -7,9 +7,9 @@ In this lesson, we will input and output character data from and to the terminal
 
 There are three file streams available to a process started in a terminal:
 
-0. *standard input (STDIN)* - default input file stream
-1. *standard output (STDOUT)* - default output file stream
-2. *standard error (STDERR)* - default output file stream for errors
+* *standard input (STDIN)* - default input file stream having file desriptor 0
+* *standard output (STDOUT)* - default output file stream having file desriptor 1
+* *standard error (STDERR)* - default output file stream for errors having file desriptor 2
 
 ```
                 +-----------+
