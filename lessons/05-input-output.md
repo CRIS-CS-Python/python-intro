@@ -93,7 +93,20 @@ import sys
 # writes string to the STDERR file stream
 print("This should not happen!", file=sys.stderr)
 ```
+### Open and Read Text Files
+
+This example opens a file, but lets Python close the file for us using a
+`with` context block. Next, we iterate over the file object one line at a time.
+`line` is a string containing the text for that line it the file.
+
+```python
+# open file and print each line one at a time
+with open("myfile.txt") as fh:
+  for line in fh:
+    print(line, end='') # line already contains the '\n' at the end
+```
 
 ## References
 
 1. [Python.org: Input and Output](https://docs.python.org/3/tutorial/inputoutput.html)
+1. [Google Students AC101 - Files](https://www.youtube.com/watch?v=zASE-UA2YKg)
