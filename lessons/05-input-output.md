@@ -93,6 +93,7 @@ import sys
 # writes string to the STDERR file stream
 print("This should not happen!", file=sys.stderr)
 ```
+
 ### Open and Read Text Files
 
 This example opens a file, but lets Python close the file for us using a
