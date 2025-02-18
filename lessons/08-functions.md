@@ -10,9 +10,9 @@ Every function definition
 
 * starts with a `def` keyword.
 * has a name that can be composed of letters, numeric digits, and underscores (`_`).
-* has a *formal argument list* of zero or more comma seperated variable names between starting and ending parenthesis [`(` and `)`].
+* has a *formal argument list* of zero or more comma separated variable names between starting and ending parenthesis [`(` and `)`].
 * a function *body* indented one level (4 spaces) immediately following the function definition.
-* a `return` statement. If not provided in the function defition, the Python interpreter will return `None` automatically.
+* a `return` statement. If not provided in the function deviation, the Python interpreter will return `None` automatically.
 
 Functions are best documented using a `'''docstring comment'''` immediately following the definition.
 
@@ -62,7 +62,7 @@ Next year, you will be 15 years old.
 You are currently 14 years old.
 ```
 
-#### Argument list with `return` statment
+#### Argument list with `return` statement
 
 Values are returned from a function using the `return` keyword.
 
@@ -142,7 +142,7 @@ can have *side effects*.
 A side effect is any thing that changes the state of the system in an
 undocumented or unintended way.
 
-For example, writing data to a file inside a function could procude an
+For example, writing data to a file inside a function could produce an
 unintended side effect of your hard drive filling beyond capacity.
 
 Another example, would be modifying the state of the program such that a global

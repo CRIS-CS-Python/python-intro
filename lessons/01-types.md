@@ -17,10 +17,10 @@ The code examples are meant to be run in the Python 3 interactive shell (REPL).
 
 However,
 
-* the `>>>` prompt is not displayed preceeding expressions.
+* the `>>>` prompt is not displayed preceding expressions.
 * a `#> ` comment is displayed *before* the output value.
 
-To lauch the Python 3 shell:
+To launch the Python 3 shell:
 
 #### Windows Users
 

@@ -84,7 +84,7 @@ print(f"i = {i}, j = {j}, f = {f:6.2f}")
 #> i = 7, j = 22, f =   7.00
 ```
 
-### Operator Precidence
+### Operator Precedence
 
 The video introduces "order of operations".  Here is a pretty good introduction to order of operations and grouping operators:
 

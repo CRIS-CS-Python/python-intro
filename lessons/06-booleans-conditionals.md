@@ -26,7 +26,7 @@ see how these expressions are evaluated.
 ## Conditionals
 
 A conditional statement, such as a `if` or `while` statement, will evaluate a block of code based
-on the `True` or `False` value of a boolean expresssion.
+on the `True` or `False` value of a boolean expression.
 
 ### Nested Conditional Example
 
