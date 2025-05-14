@@ -135,7 +135,12 @@ print("5 * 3 =", calc_func(5, 3))
 
 A "pure function" is one that is *deterministic* - it predictably returns the
 same return value for a given input value. This is how functions work in
-mathematics. However, functions in most computer programming languages are
+mathematics.
+
+The `add()`, `subtract()` and `multiply()` functions above are examples
+of pure functions.
+
+However, functions in most computer programming languages are
 more general purpose so they don't have to behave like a "pure function" and
 can have *side effects*.
 

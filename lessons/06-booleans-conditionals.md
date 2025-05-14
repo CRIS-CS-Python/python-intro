@@ -19,6 +19,7 @@ A *boolean expression* evaluates to either a value of `True` or `False`.
 | >        | Greater than             |
 | >=       | Greater than or equal to |
 | ==       | is equal to              |
+| !=       | is *not* equal to        |
 
 Watch the [AC 101 Boolean Logic](https://www.youtube.com/watch?v=Y6CwThhquQs) lesson to
 see how these expressions are evaluated.
