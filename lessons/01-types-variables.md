@@ -190,7 +190,7 @@ We can visualize it like this:
 Python is **dynamically typed**, so we don't have to declare the type of a
 variable like in the C language (or other *strongly-typed* languages like C++, or Java).
 
-This means that they type is inferred by its value.
+This means that the type is **inferred** by its value.
 
 ```python
 x = 27
