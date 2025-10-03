@@ -16,7 +16,7 @@ The `+` operator after a string indicates *string concatenation*, not addition.
 "Hello" + "World"
 #> HelloWorld
 
-# There is no space between the two words. Why? We need to tell python to print a space
+# There is no space between the two words. Why? We need to tell Python to print a space
 "Hello" + " " + "World"
 #> Hello World
 ```

@@ -12,7 +12,7 @@ j = 22
 # float (or floating point number has decimal place)
 f = 7.0
 
-## remember python prints strings literally
+## remember Python prints strings literally
 print("i + f")
 #> i + f
 
