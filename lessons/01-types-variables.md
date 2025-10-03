@@ -36,7 +36,7 @@ python3 -i
 
 ### Comments
 
-"A [comment](https://en.wikipedia.org/wiki/Comment_(computer_programming)#Python) is a human-readable explanation or annotation in the source code of a computer program."
+A [comment](https://en.wikipedia.org/wiki/Comment_(computer_programming)#Python) is a human-readable explanation or annotation in the source code of a computer program.
 
 They are ignored by the Python interpreter.
 
