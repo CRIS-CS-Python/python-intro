@@ -206,21 +206,22 @@ Visualization (simplified):
 
 Both `x` and `y` point to the **same object** in memory.
 
-Changing the value of `x` by *rebinding* (e.g., `x = 42`) doesn’t change `y`. Instead, `x` now points to a **different object**.
+Changing the value of `x` by *rebinding* (e.g., `x = 42`) doesn’t change `y`. Instead, `x` now points to a different object.
 
 ```python
-# `y` contains a value `27`, now update it to `42`
-y = 42
+# `x` contains a value `27`, now update it to `42`
+x = 42
 ```
 
 Visualization (simplified):
 
 | Variable Name | Memory Address (of object) | Value |
 |---------------|----------------------------|-------|
-| `x`           | `0x1001`                   | `27`  |
-| `y`           | `0x1002`                   | `42`  |
+| `y`           | `0x1002`                   | `27`  |
+| `x`           | `0x1002`                   | `42`  |
 
-A **variable is not the value itself** — it’s a name (label) that points to a location where the value is stored in memory.
+A **variable is not the value itself** — it’s a name (label) that points to a
+location where the value is stored in memory.
 
 ## References
 
