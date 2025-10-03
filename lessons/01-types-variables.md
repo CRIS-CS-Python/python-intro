@@ -166,9 +166,10 @@ In computer science, a **variable** is a name that refers to a **value** stored 
 
 Python is written in the **C programming language**, so let's visualize declaring an `int` variable and **assigning** it a value.
 
-Suppose we write:
+This is C code, so it won't work in the Python interpreter. But, for example, suppose we write:
 
 ```c
+/* declare a variable `x` of type `int` with a value `27` */
 int x = 27;
 ```
 
@@ -180,13 +181,14 @@ We can visualize it like this:
 
 * `x` is the **variable name**.
 * `0x7ffee3b4` is the **address in RAM** where the value is stored.
-* The box at that address contains the **integer value 27**.
+* The storage location at that address contains the **integer value 27** (but as a **binary number**).
 
 ---
 
 ## Python Example
 
-Python is **dynamically typed**, so we don't have to declare it like in the C language (or other *strongly-typed* languages like C++, or Java).
+Python is **dynamically typed**, so we don't have to declare the type of a
+variable like in the C language (or other *strongly-typed* languages like C++, or Java).
 
 This means that they type is inferred by its value.
 
@@ -204,9 +206,10 @@ Visualization (simplified):
 
 Both `x` and `y` point to the **same object** in memory.
 
-Changing the value of `x` by *rebinding* (e.g., `x = 99`) doesn’t change `y`. Instead, `x` now points to a **different object**.
+Changing the value of `x` by *rebinding* (e.g., `x = 42`) doesn’t change `y`. Instead, `x` now points to a **different object**.
 
 ```python
+# `y` contains a value `27`, now update it to `42`
 y = 42
 ```
 
