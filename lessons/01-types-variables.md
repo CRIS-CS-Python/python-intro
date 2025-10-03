@@ -61,7 +61,7 @@ type(37)
 
 A floating point number is a rational number, however we use the term *floating point*
 instead of *decimal point* to avoid confusion with the term "decimal numbers" which
-indicates a *base 10* number in Computer Science.
+indicates a *base 10* [number in Computer Science](../docs/Number-Systems-in-Computer-Science.pdf).
 
 ```python
 type(21.7)
