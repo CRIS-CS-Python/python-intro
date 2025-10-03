@@ -158,6 +158,67 @@ bool(" ") # string containing a single space
 #> True
 ```
 
+## Variables
+
+In computer science, a **variable** is a name that refers to a **value** stored in memory.
+
+### Example (C-style visualization)
+
+Python is written in the **C programming language**, so let's visualize declaring an `int` variable and **assigning** it a value.
+
+Suppose we write:
+
+```c
+int x = 27;
+```
+
+We can visualize it like this:
+
+| Variable Name | Memory Address | Value |
+|---------------|----------------|-------|
+| `x`           | `0x7ffee3b4`   | `27`  |
+
+* `x` is the **variable name**.
+* `0x7ffee3b4` is the **address in RAM** where the value is stored.
+* The box at that address contains the **integer value 27**.
+
+---
+
+## Python Example
+
+Python is **dynamically typed**, so we don't have to declare it like in the C language (or other *strongly-typed* languages like C++, or Java).
+
+This means that they type is inferred by its value.
+
+```python
+x = 27
+y = x
+```
+
+Visualization (simplified):
+
+| Variable Name | Memory Address (of object) | Value |
+|---------------|----------------------------|-------|
+| `x`           | `0x1001`                   | `27`  |
+| `y`           | `0x1001`                   | `27`  |
+
+Both `x` and `y` point to the **same object** in memory.
+
+Changing the value of `x` by *rebinding* (e.g., `x = 99`) doesn’t change `y`. Instead, `x` now points to a **different object**.
+
+```python
+y = 42
+```
+
+Visualization (simplified):
+
+| Variable Name | Memory Address (of object) | Value |
+|---------------|----------------------------|-------|
+| `x`           | `0x1001`                   | `27`  |
+| `y`           | `0x1002`                   | `42`  |
+
+A **variable is not the value itself** — it’s a name (label) that points to a location where the value is stored in memory.
+
 ## References
 
 1. [Python.org - Builtin Types](https://docs.python.org/3/library/stdtypes.html)
