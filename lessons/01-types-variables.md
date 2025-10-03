@@ -179,13 +179,15 @@ We can visualize it like this:
 |---------------|----------------|-------|
 | `x`           | `0x7ffee3b4`   | `27`  |
 
+Where:
+
 * `x` is the **variable name**.
 * `0x7ffee3b4` is the **address in RAM** where the value is stored.
 * The storage location at that address contains the **integer value 27** (but as a **binary number**).
 
 ---
 
-## Python Example
+### Python Example
 
 Python is **dynamically typed**, so we don't have to declare the type of a
 variable like in the C language (or other *strongly-typed* languages like C++, or Java).
@@ -217,11 +219,35 @@ Visualization (simplified):
 
 | Variable Name | Memory Address (of object) | Value |
 |---------------|----------------------------|-------|
-| `y`           | `0x1002`                   | `27`  |
+| `y`           | `0x1001`                   | `27`  |
 | `x`           | `0x1002`                   | `42`  |
 
 A **variable is not the value itself** — it’s a name (label) that points to a
 location where the value is stored in memory.
+
+### Variable Name Rules
+
+* Allowed characters
+  - Letters (A–Z, a–z)
+  - Digits (0–9)
+  - Underscore (_)
+* Must start with a letter or underscore
+* *Case-sensitive*: `age`, `Age` and `AGE` would be different variables
+* Cannot use Python [reserved words (keywords)](https://docs.python.org/3/reference/lexical_analysis.html#keywords) such as `class`, `def`, `for`, `while`, `if`, `else`, `False`, etc. 
+
+#### Variable Name Examples
+
+|        Variable Name         | Notes        |
+|------------------------------|--------------|
+| `x = 3`                      | ✅Okay       |
+| `my_name = "Suzy"`           | ✅Okay       |
+| `my name = "Suzy"`           | ❌ (illegal) `my` and `name` are two [*tokens*](https://en.wikipedia.org/wiki/Lexical_analysis#Token)  |
+| `food1 = "Steak"`            | ✅Okay       |
+| `1food = "Steak"`            | ❌ (illegal) Cannot start with a number  |
+| `class = "Computer Science"` | ❌ (illegal) `class` is a reserved Python keyword  |
+| `Name = "Joey"`              | ⚠️ legal, but we use [*CamelCase*](https://en.wikipedia.org/wiki/Camel_case#Computer_programming) as a [*naming convention*](https://en.wikipedia.org/wiki/Naming_convention_%28programming%29) for `class` names, not variable names |
+| `อาหาร = "Spaghetti"`        | ⚠️variables can use Unicode characters, but code is more *maintainable* to use ASCII characters |
+| `π = 3.14`                   | ⚠️ Unicode can look cool, but better to use ASCII (or better yet, `import math` then `math.pi` in this case 😎) |
 
 ## References
 
