@@ -228,9 +228,9 @@ location where the value is stored in memory.
 ### Variable Name Rules
 
 * Allowed characters
-  - Letters (A–Z, a–z)
-  - Digits (0–9)
-  - Underscore (_)
+  - Letters (`A–Z`, `a–z`)
+  - Digits (`0–9`)
+  - Underscore (`_`)
 * Must start with a letter or underscore
 * *Case-sensitive*: `age`, `Age` and `AGE` would be different variables
 * Cannot use Python [reserved words (keywords)](https://docs.python.org/3/reference/lexical_analysis.html#keywords) such as `class`, `def`, `for`, `while`, `if`, `else`, `False`, etc. 
