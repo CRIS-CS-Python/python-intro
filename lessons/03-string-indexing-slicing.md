@@ -28,7 +28,6 @@ country = "thailand"
 
 # literally what is between quotes
 print("country")
-#> country
 
 # prints the contents of the variable
 print(country)
@@ -152,3 +151,8 @@ print(city[-3:])
 print(city[:7] + "Mai")
 #> Chiang Mai
 ```
+
+## References
+
+1. [Python.org: Built-in type - String methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
+2. [W3 Schools - String Methods](https://www.w3schools.com/python/python_ref_string.asp)

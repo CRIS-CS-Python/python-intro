@@ -24,10 +24,25 @@ A *boolean expression* evaluates to either a value of `True` or `False`.
 Watch the [AC 101 Boolean Logic](https://www.youtube.com/watch?v=Y6CwThhquQs) lesson to
 see how these expressions are evaluated.
 
+## Code Blocks
+
+In Python, a [code *block*](https://mimo.org/glossary/python/code-block) is a segment of code that belongs together and shares the same indentation level.
+
 ## Conditionals
 
 A conditional statement, such as a `if` or `while` statement, will evaluate a block of code based
 on the `True` or `False` value of a boolean expression.
+
+### `if` Statement Example
+
+```python
+if True:
+    print("Inside the `if` code block.")
+print("Outside the `if` code block.")
+```
+
+Using conditional statements, we a implement *flow control* in our program
+as we make decisisions about what code to excecute based on *logical conditions*.
 
 ### Nested Conditional Example
 
