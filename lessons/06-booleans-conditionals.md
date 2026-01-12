@@ -83,6 +83,6 @@ produce the different output.
 ## References
 
 1. [Python.org: Compound Statements](https://docs.python.org/3/reference/compound_stmts.html)
-2. [Corey Schafer - Python Conditionals](https://www.youtube.com/watch?v=daefaLgNkw0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=6)
+2. [Corey Schafer - Python Conditionals](https://youtu.be/DZwmZ8Usvnk?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
 3. [Google Students AC101 - Boolean Logic](https://www.youtube.com/watch?v=Y6CwThhquQs)
 4. [Google Students AC101 - Conditionals](https://www.youtube.com/watch?v=OQ8uakCJ6yE)

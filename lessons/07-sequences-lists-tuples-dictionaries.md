@@ -38,7 +38,7 @@ print(evens[5])
 A tuple is a immutable sequence of values.
 
 ```python
-#         0  1  2  3  4  6    6
+#         0  1  2  3  4  6    7
 primes = (1, 2, 3, 5, 7, 11, 13)
 # primes[6] = 12  # error, cannot change values (immutable)
 
